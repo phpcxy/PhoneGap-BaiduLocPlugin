@@ -17,16 +17,16 @@ PhoneGap-BaiduLocPlugin For Android
 <plugin name="BaiduLocPlugin" value="com.fulstore.plugin.BaiduLoc.BaiduLocPlugin"/>
 - 5.参考[这里](http://dev.baidu.com/wiki/geolocation/index.php?title=AndroidAPI%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972.3)进行AndroidManifest.xml的设置：
 在application标签中声明service组件
-<pre>
+<blockquote>
 	<service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote" 
 	android:permission="android.permission.BAIDU_LOCATION_SERVICE">
 		<intent-filter>
 			<action android:name="com.baidu.location.service_v2.3"></action>
 		</intent-filter>
 	</service>
-</pre>
+</blockquote>
 声明使用权限
-<pre>
+<blockquote>
 	<permission android:name="android.permission.BAIDU_LOCATION_SERVICE"></permission>
 	<uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"></uses-permission>
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
@@ -39,8 +39,8 @@ PhoneGap-BaiduLocPlugin For Android
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
 	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
-</pre>
--6 javascript调用方法：
+</blockquote>
+- 6.javascript调用方法：
 <pre>
 	window.Location(success(pos),fail(err));
 </pre>
