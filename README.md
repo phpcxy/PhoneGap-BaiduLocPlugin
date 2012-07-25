@@ -47,9 +47,9 @@ PhoneGap-BaiduLocPlugin For Android
 
 PS:
 ---
--1 作为一个PHP码农，我基本不懂JAVA。该插件也是不断借助google和baidu糊弄出来的，估计有BUG，希望有真正的Android开发者能完善下。
--2 本插件返回的是百度的经纬坐标与真实经纬度还是有较大差别的。只适用使用在百度地图上，但是网上也有百度坐标转换成真实经纬的方法，有需要的请自行搜索。
--3 我的联系方phpcxy@gmail.com	[新浪微博](http://weibo.com/phpcxy)
+- 1.作为一个PHP码农，我基本不懂JAVA。该插件也是不断借助google和baidu糊弄出来的，估计有BUG，希望有真正的Android开发者能完善下。
+- 2.本插件返回的是百度的经纬坐标与真实经纬度还是有较大差别的。只适用使用在百度地图上，但是网上也有百度坐标转换成真实经纬的方法，有需要的请自行搜索。
+- 3.我的联系方phpcxy@gmail.com	[新浪微博](http://weibo.com/phpcxy)
 
 
 
