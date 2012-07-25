@@ -20,7 +20,7 @@ PhoneGap-BaiduLocPlugin For Android
 ```
 
 - 5.	参考[这里](http://dev.baidu.com/wiki/geolocation/index.php?title=AndroidAPI%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972.3)进行AndroidManifest.xml的设置：
-	在application标签中声明service组件
+在application标签中声明service组件
 	
 ```
 	<service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote" 
@@ -31,7 +31,7 @@ PhoneGap-BaiduLocPlugin For Android
 	</service>
 ```
 
-	声明使用权限
+声明使用权限
 	
 ```	
 	<permission android:name="android.permission.BAIDU_LOCATION_SERVICE"></permission>
