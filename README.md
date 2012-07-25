@@ -39,9 +39,7 @@ PhoneGap-BaiduLocPlugin For Android
 	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
 	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
 - 6.javascript调用方法：
-<pre>
 	window.Location(success(pos),fail(err));
-</pre>
 
 PS:
 ---
