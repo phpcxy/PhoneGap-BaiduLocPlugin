@@ -8,7 +8,7 @@ PhoneGap-BaiduLocPlugin For Android
 百度定位SDK请看[http://dev.baidu.com/wiki/geolocation/index.php?title=AndroidAPI](http://dev.baidu.com/wiki/geolocation/index.php?title=AndroidAPI)
 
 使用方法
--------
+--------
 
 -1 拷贝JAVA文件到你的项目文件里，即/src文件夹；
 -2 拷贝BaiduLoc.js文件到你的www目录，并且在html页面引入该js；
@@ -40,5 +40,11 @@ android:permission="android.permission.BAIDU_LOCATION_SERVICE">
 
 -6 javascript调用方法：
 window.Location(success(pos),fail(err));
+
+PS:
+---
+-1 作为一个PHP码农，我基本不懂JAVA。该插件也是不断借助google和baidu糊弄出来的，估计有BUG，希望有真正的Android开发者能完善下。
+-2 本插件返回的是百度的经纬坐标与真实经纬度还是有较大差别的。只适用使用在百度地图上，但是网上也有百度坐标转换成真实经纬的方法，有需要的请自行搜索。
+-3 我的联系方phpcxy@gmail.com [http://weibo.com/phpcxy](新浪微博)
 
 
